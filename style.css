@@ -1,0 +1,113 @@
+body{
+    background: #e4eef3;
+    font-family: 'Cabin Sketch', cursive;
+}
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+button {
+    background: #f3e9e4;
+    height: 80px;
+    width: 450px;
+    font-family: 'Cabin Sketch', cursive;
+
+}
+#cursor {
+    background-image: url(icons/Cursor%20arrow.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    background-position: center left; 
+}
+#grannie {
+    background-image: url(icons/Witch%20profile.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    background-position: center left;
+}
+#farm{
+    background-image: url(icons/Garden%20fence.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    background-position: center left;
+}
+#bakery {
+    background-image: url(icons/Gingerbread%20man.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    background-position: center left;
+}
+#mine {
+    background-image: url(icons/mine.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    background-position: center left;
+}
+
+#cookies, #CPS {
+    margin-top: 150px;
+    font-size: 30px;
+    width: 400px;
+    
+}
+
+#makeCookie {
+    margin-top: 100px;
+    width: 300px;
+    background-image: url(icons/Cookie-PNG-180x180.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration:4s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -moz-animation-name: rotate;
+    -moz-animation-duration:4s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform:rotate(0deg);}
+    to {  -webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform:rotate(0deg);}
+    to {  -moz-transform:rotate(360deg);}
+}
+}
+#shop {
+    margin-left: 155px;
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+h2 {
+    margin-bottom: 10px;
+    background-image: url(icons/store.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-align: center;
+    height: 50px;
+}
+#monster{
+    border: 10px solid #2d548b;
+    right: -510px;
+    position: fixed;
+    top: 180px;
+    transition: transform 0.4s;
+    z-index: 1;
+    width: 500px;
+    height: 360px;
+}
+#monster:hover{
+    transform: translateX(-304px);
+    left: auto;
+    right: -304px;
+    transition: transform 0.4s;
+  
+}
