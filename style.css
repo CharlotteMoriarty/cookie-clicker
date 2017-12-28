@@ -10,12 +10,9 @@ body{
 @media only screen and (max-width: 768px){
     .container {
     display: block;
-        margin-left: 55%;
-        margin-right: 35%;
+        
     }
     #makeCookie {
-    margin-top: 100px;
-    
     background-image: url(icons/Cookie-PNG-180x180.png);
     background-repeat: no-repeat;
     background-position: center;
