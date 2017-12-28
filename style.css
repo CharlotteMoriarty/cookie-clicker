@@ -60,6 +60,7 @@ button {
 
 #makeCookie {
     margin-top: 100px;
+    margin-left: -86px;
     width: 400px;
     background-image: url(icons/Cookie-PNG-180x180.png);
     background-repeat: no-repeat;
