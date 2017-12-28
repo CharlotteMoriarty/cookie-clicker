@@ -16,6 +16,7 @@ body{
     background-image: url(icons/Cookie-PNG-180x180.png);
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-animation-name: none;    
 
 }
 }
